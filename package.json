@@ -1,0 +1,18 @@
+{
+  "name": "react-text-to-input",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "repository": "git@github.com:dygufa/react-text-to-input.git",
+  "author": "Rodrigo Araujo <dygufa@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^16.0.36",
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.1"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0"
+  }
+}
