@@ -1,5 +1,5 @@
 # react-text-to-input
-![npm version](https://img.shields.io/npm/v/react-text-to-input.svg?style=flat-square)
+[![npm version](https://img.shields.io/npm/v/react-text-to-input.svg?style=flat-square)](https://www.npmjs.com/package/react-text-to-input)
 
 React component that switches between a "text view" and an "input view".
 
