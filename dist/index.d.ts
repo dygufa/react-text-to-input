@@ -7,6 +7,7 @@ export interface IReactTextToInputProps {
     inputClassName?: string;
     textStyle?: React.CSSProperties;
     inputStyle?: React.CSSProperties;
+    inputProps?: React.HTMLProps<HTMLInputElement>;
 }
 export interface IReactTextToInputState {
     editing: boolean;

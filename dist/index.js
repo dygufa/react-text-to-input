@@ -41,7 +41,7 @@ class ReactTextToInput extends React.Component {
     }
     render() {
         if (this.state.editing) {
-            return React.createElement("input", { autoFocus: true, value: this.state.value, onChange: this.onInputChange, onKeyPress: this.onInputKeyPress, onBlur: this.onInputBlur });
+            return React.createElement("input", Object.assign({ autoFocus: true, value: this.state.value, onChange: this.onInputChange, onKeyPress: this.onInputKeyPress, onBlur: this.onInputBlur, style: this.props.inputStyle, className: this.props.inputClassName }, this.props.inputProps));
         }
         return React.createElement("div", { className: this.props.textClassName, style: this.props.textStyle, onClick: this.startEditing }, this.props.value);
     }

@@ -7,6 +7,7 @@ export interface IReactTextToInputProps {
     inputClassName?: string;
     textStyle?: React.CSSProperties;
     inputStyle?: React.CSSProperties;
+    inputProps?: React.HTMLProps<HTMLInputElement>;  
 }
 
 export interface IReactTextToInputState {
@@ -70,6 +71,9 @@ export default class ReactTextToInput extends React.Component<IReactTextToInputP
                 onChange={this.onInputChange}
                 onKeyPress={this.onInputKeyPress}
                 onBlur={this.onInputBlur}
+                style={this.props.inputStyle}
+                className={this.props.inputClassName}
+                {...this.props.inputProps}
             />;
         }
 
