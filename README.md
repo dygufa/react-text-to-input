@@ -20,6 +20,8 @@ import TextToInput from "react-text-to-input";
 />
 ```
 
+By default, the `div` element in "the view mode" has `minHeight` set to 20px to prevent the element turning not clickable when `value` is empty.
+
 ### Properties
 
 Property | Type | Required

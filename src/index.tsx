@@ -79,7 +79,9 @@ export default class ReactTextToInput extends React.Component<IReactTextToInputP
 
         return <div
             className={this.props.textClassName}
-            style={this.props.textStyle}
+            style={{...this.props.textStyle, ...{
+                minHeight: "20px"
+            }}}
             onClick={this.startEditing}
         >
             {this.props.value}
