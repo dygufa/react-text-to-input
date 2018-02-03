@@ -12,7 +12,7 @@ interface IAppState {
 
 class App extends React.Component<IAppProps, IAppState> {
     state = {
-        value: "Clique em mim para editar"
+        value: "Click here to edit"
     }
 
     onInputChange = (value: string) => {
@@ -24,7 +24,7 @@ class App extends React.Component<IAppProps, IAppState> {
     render() {
         return (
             <div>
-                <h1>Exemplo:</h1>
+                <h1>Example:</h1>
 
                 <TextToInput
                     value={this.state.value}
