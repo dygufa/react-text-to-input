@@ -3,6 +3,8 @@
 
 React component that switches between a "text view" and an "input view" after a click.
 
+### [**Check the DEMO**](https://dygufa.com/react-text-to-input/example/dist/)
+
 ## How to use
 
 ### Install
