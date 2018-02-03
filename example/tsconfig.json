@@ -7,9 +7,14 @@
         "target": "es6",
         "jsx": "react",
         "experimentalDecorators": true,
-        "declaration": true
+        "baseUrl": ".",
+        "paths": {
+            "react-text-to-input": [
+                "../src"
+            ]
+        }
     },
     "include": [
-        "./src/**/*",
+        "./src/**/*"
     ]
 }

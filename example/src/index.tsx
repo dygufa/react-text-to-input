@@ -1,6 +1,6 @@
 import { render } from "react-dom";
 import * as React from "react";
-import TextToInput from "../src/index";
+import TextToInput from "react-text-to-input";
 
 interface IAppProps {
 

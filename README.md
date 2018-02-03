@@ -29,3 +29,11 @@ inputClassName | string | no
 textStyle | React.CSSProperties | no
 inputStyle | React.CSSProperties | no
 inputProps | React.HTMLProps<HTMLInputElement> | no
+
+
+### Running example
+
+```
+cd example/
+yarn start
+```

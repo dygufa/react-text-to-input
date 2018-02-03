@@ -16,8 +16,7 @@
     "typescript": "^2.7.1"
   },
   "scripts": {
-    "build": "tsc",
-    "dev": ""
+    "build": "tsc"
   },
   "peerDependencies": {
     "react": "^16.2.0"
